@@ -20,35 +20,15 @@
 
 हाम्रो १२ हप्ता, २४ पाठहरूको पाठ्यक्रमसँग **कृत्रिम बुद्धिमत्ता** (AI) को संसार अन्वेषण गर्नुहोस्! यसले व्यावहारिक पाठहरू, क्विजहरू, र प्रयोगशालाहरू समावेश गर्दछ। पाठ्यक्रम नयाँ सिक्नेहरूका लागि अनुकूल छ र टेन्सरफ्लो र पाइटर्च जस्ता उपकरणहरू साथै AI को नैतिकता पनि समेट्छ।
 
-### 🌐 बहुभाषिक समर्थन
+### 🌐 भाषा संस्करणहरू (Language Editions)
 
-#### GitHub Action मार्फत समर्थन गरिएको (स्वचालित र सँधै अद्यावधिक)
+यस रिपोजिटरीमा केवल **अंग्रेजी** (मूल) र **नेपाली** संस्करणहरू राखिएका छन्:
+- 🇳🇵 **नेपाली संस्करण**: [translations/ne/README.md](./README.md)
+- 🇬🇧 **English Edition**: [README.md](../../README.md)
+- 📊 **विस्तृत अनुवाद अडिट प्रतिवेदन**: [audit.md](./audit.md)
+- 📋 **नेपाली अनुवाद स्थिति तथा बाँकी सूची**: [STATUS_REMAINING.md](./STATUS_REMAINING.md)
 
-<!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
-[Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh-CN/README.md) | [Chinese (Traditional, Hong Kong)](../zh-HK/README.md) | [Chinese (Traditional, Macau)](../zh-MO/README.md) | [Chinese (Traditional, Taiwan)](../zh-TW/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Khmer](../km/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](./README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../pt-BR/README.md) | [Portuguese (Portugal)](../pt-PT/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
 
-> **स्थानीय रूपमा क्लोन गर्न रुचाउनुहुन्छ?**
->
-> यस रिपोजिटरीमा ५०+ भाषामा अनुवादहरू छन् जसले डाउनलोड साइज धेरै बढाउँछ। अनुवाद बिना क्लोन गर्न, sparse checkout प्रयोग गर्नुहोस्:
->
-> **Bash / macOS / Linux:**
-> ```bash
-> git clone --filter=blob:none --sparse https://github.com/microsoft/AI-For-Beginners.git
-> cd AI-For-Beginners
-> git sparse-checkout set --no-cone '/*' '!translations' '!translated_images'
-> ```
->
-> **CMD (Windows):**
-> ```cmd
-> git clone --filter=blob:none --sparse https://github.com/microsoft/AI-For-Beginners.git
-> cd AI-For-Beginners
-> git sparse-checkout set --no-cone "/*" "!translations" "!translated_images"
-> ```
->
-> यसले तपाईंलाई कोर्स पूरा गर्न आवश्यक सबै कुरा धेरै छिटो डाउनलोडका साथ दिन्छ।
-<!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
-
-**थप समर्थन गरिने भाषाहरू यहाँ सूचीबद्ध छन् [यहाँ](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
 
 ## समुदायमा सहभागी हुनुस्
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
